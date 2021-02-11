@@ -12,7 +12,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "start": "nodemon index.ts",
-    "start-prod": "node build/index.js"
+    "start-dev": "nodemon index.ts",
+    "start": "node build/index.js"
   }
 }
